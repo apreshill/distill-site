@@ -1,0 +1,21 @@
+{
+  "articles": [
+    {
+      "path": "about.html",
+      "title": "About this site",
+      "description": "Some additional details about the website\n",
+      "author": [],
+      "contents": "\n\nContents\nhi\nhello\nwhat is going on with the footer\n\nhi\nhello\nwhat is going on with the footer\n\n\n\n",
+      "last_modified": "2020-10-06T08:58:58-04:00"
+    },
+    {
+      "path": "index.html",
+      "title": "My Website",
+      "description": "Welcome to the website. I hope you enjoy it!\n",
+      "author": [],
+      "contents": "\nStyle here\n\n$body-bg: red;\nbody{\n  background-color: $body-bg;\n}\n\n\nText here\nDistill is a publication format for scientific and technical writing, native to the web.\nLearn more about using Distill for R Markdown at https://rstudio.github.io/distill.\n\nYou won’t have to use GitHub for the session, but many of tools we’ll use integrate nicely with version control via GitHub. To get started, complete these installation instructions, then test your connection between GitHub and RStudio following these steps.1.\nCode here\n\n\nlibrary(palmerpenguins)\nlibrary(tidyverse)\npenguins %>% \n  filter(year == 2007 & species == \"Gentoo\") %>% \n  summarise(mean_fl = mean(flipper_length_mm, na.rm = TRUE))\n\n\n# A tibble: 1 x 1\n  mean_fl\n    <dbl>\n1    215.\n\n\n\n# Histogram example: flipper length by species\nggplot(data = penguins, aes(x = flipper_length_mm)) +\n  geom_histogram(aes(fill = species), alpha = 0.5, position = \"identity\") +\n  scale_fill_manual(values = c(\"darkorange\",\"darkorchid\",\"cyan4\"))\n\n\n\n\nFigure 1: some cool penguins\n\n\n\n\nWe strongly recommend that if you are not already a fluent GitHub user you choose HTTPS over SSH.↩︎\n",
+      "last_modified": "2020-10-06T08:59:00-04:00"
+    }
+  ],
+  "collections": []
+}

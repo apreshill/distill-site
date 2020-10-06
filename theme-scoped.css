@@ -1,0 +1,60 @@
+
+
+html {
+  /*-- font sizes --*/
+  --base-size:       16px;
+  --title-size:      50px;
+  --body-size:       1.2rem;
+  --code-size:       1.0rem;
+  --aside-size:      1.0rem;
+  --fig-cap-size:    25px;              
+  /*-- font colors --*/
+  --title-color:    #a1024a;
+  --header-color:    magenta; 
+  --body-color:      indianred;
+  --aside-color:     cyan;
+  --fig-cap-color:   peachpuff;              
+}
+
+
+/*-- ARTICLE BYLINE METADATA --*/
+.d-byline {
+  --heading-size:   0.9rem;
+  --heading-color:  rgba(0, 0, 0, 0.75);
+  --body-size:      1.0rem;
+  --body-color:     #a1024a;
+}
+
+/*-- ARTICLE TABLE OF CONTENTS --*/
+.d-contents {
+  --heading-size:   0.9rem;
+  --heading-color:  rgba(0, 0, 0, 0.75);
+  --contents-size:  1.0rem;
+  --contents-color: #a1024a;
+}
+
+/*-- ARTICLE APPENDIX --*/
+d-appendix {
+  --heading-size:   0.95rem;
+  --heading-color:  rgba(0,0,0,0.75);
+  --body-size:      0.95rem;
+  --body-color:     springgreen;
+}
+
+/*-- WEBSITE HEADER + FOOTER --*/
+/* the following properties apply only to Distill websites */
+
+.distill-site-header {
+  --title-size:  10px;                     /*default*/
+  --text-color:  rgba(255, 255, 255, 0.5); /*default*/
+  --text-size:   1.5rem;                     /*default*/
+  --hover-color: white;                      /*default*/
+  --bkgd-color:  indianred;                   /*default*/
+}
+
+.distill-site-footer {
+  --text-color:  green;                    /*default*/
+  --text-size:   20px;                     /*default*/
+  --hover-color: cyan;                    /*default*/
+  --bkgd-color:  dodgerblue;                  /*default*/
+}

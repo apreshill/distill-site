@@ -1,0 +1,18 @@
+---
+title: "About this site"
+description: |
+  Some additional details about the website
+output:
+  distill::distill_article:
+    toc: true
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+## hi
+
+## hello
+
+## what is going on with the footer

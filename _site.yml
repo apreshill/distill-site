@@ -1,0 +1,22 @@
+name: "distill-site"
+title: "My Website"
+description: |
+  My Website
+output_dir: "_site"
+navbar:
+  right:
+    - text: "Home"
+      href: index.html
+    - text: "About"
+      href: about.html
+base_url: https://rstudio.github.io/distill
+repository_url: https://github.com/rstudio/distill
+creative_commons: CC BY
+twitter:
+  site: "@distilljournal"
+output: 
+  distill::distill_article:
+    theme: theme.css
+    #css: full-theme.css
+    #includes:
+      #in_header: "fonts.html"
